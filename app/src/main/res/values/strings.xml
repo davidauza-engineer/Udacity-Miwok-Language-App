@@ -13,18 +13,31 @@
      limitations under the License.
 -->
 <resources>
+
+    <!-- Main Activity Strings Start -->
     <!-- Title for the application. [CHAR LIMIT=12] -->
-    <string name="app_name">Miwok</string>
-
+    <string name="main_app_name">Miwok</string>
     <!-- Category name for phrases [CHAR LIMIT=20] -->
-    <string name="category_phrases">Phrases</string>
-
+    <string name="main_category_phrases">Phrases</string>
     <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
-    <string name="category_colors">Colors</string>
-
+    <string name="main_category_colors">Colors</string>
     <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
-    <string name="category_numbers">Numbers</string>
-
+    <string name="main_category_numbers">Numbers</string>
     <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
-    <string name="category_family">Family Members</string>
+    <string name="main_category_family">Family Members</string>
+    <!-- Main Activity Strings End -->
+
+    <!-- Numbers Activity Strings Start -->
+    <!-- English translation for numbers. [CHAR LIMIT=12] -->
+    <string name="numbers_one">One</string>
+    <string name="numbers_two">Two</string>
+    <string name="numbers_three">Three</string>
+    <string name="numbers_four">Four</string>
+    <string name="numbers_five">Five</string>
+    <string name="numbers_six">Six</string>
+    <string name="numbers_seven">Seven</string>
+    <string name="numbers_eight">Eight</string>
+    <string name="numbers_nine">Nine</string>
+    <string name="numbers_ten">Ten</string>
+    <!-- Numbers Activity Strings End -->
 </resources>
