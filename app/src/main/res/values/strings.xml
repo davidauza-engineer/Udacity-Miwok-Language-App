@@ -29,15 +29,52 @@
 
     <!-- Numbers Activity Strings Start -->
     <!-- English translation for numbers. [CHAR LIMIT=12] -->
-    <string name="numbers_one">One</string>
-    <string name="numbers_two">Two</string>
-    <string name="numbers_three">Three</string>
-    <string name="numbers_four">Four</string>
-    <string name="numbers_five">Five</string>
-    <string name="numbers_six">Six</string>
-    <string name="numbers_seven">Seven</string>
-    <string name="numbers_eight">Eight</string>
-    <string name="numbers_nine">Nine</string>
-    <string name="numbers_ten">Ten</string>
+    <string name="numbers_en_one">one</string>
+    <string name="numbers_en_two">two</string>
+    <string name="numbers_en_three">three</string>
+    <string name="numbers_en_four">four</string>
+    <string name="numbers_en_five">five</string>
+    <string name="numbers_en_six">six</string>
+    <string name="numbers_en_seven">seven</string>
+    <string name="numbers_en_eight">eight</string>
+    <string name="numbers_en_nine">nine</string>
+    <string name="numbers_en_ten">ten</string>
+    <!-- Miwok translation for numbers. [NOT TRANSLATABLE] -->
+    <string name="numbers_mi_one" translatable="false">lutti</string>
+    <string name="numbers_mi_two" translatable="false">otiiko</string>
+    <string name="numbers_mi_three" translatable="false">tolookosu</string>
+    <string name="numbers_mi_four" translatable="false">oyyisa</string>
+    <string name="numbers_mi_five" translatable="false">massokka</string>
+    <string name="numbers_mi_six" translatable="false">temmokka</string>
+    <string name="numbers_mi_seven" translatable="false">kenekaku</string>
+    <string name="numbers_mi_eight" translatable="false">kawinta</string>
+    <string name="numbers_mi_nine" translatable="false">wo’e</string>
+    <string name="numbers_mi_ten" translatable="false">na’aacha</string>
     <!-- Numbers Activity Strings End -->
+
+    <!-- Family Members Activity Strings Start -->
+    <!-- English translation for family members. [CHAR LIMIT =12] -->
+    <string name="family_en_father">father</string>
+    <string name="family_en_mother">mother</string>
+    <string name="family_en_son">son</string>
+    <string name="family_en_daughter">daughter</string>
+    <string name="family_en_older_brother">older brother</string>
+    <string name="family_en_younger_brother">younger brother</string>
+    <string name="family_en_older_sister">older sister</string>
+    <string name="family_en_younger_sister">younger sister</string>
+    <string name="family_en_grandmother">grandmother</string>
+    <string name="family_en_grandfather">grandfather</string>
+    <!-- Miwok translation for family members. [NOT TRANSLATABLE] -->
+    <string name="family_mi_father" translatable="false">әpә</string>
+    <string name="family_mi_mother" translatable="false">әṭa</string>
+    <string name="family_mi_son" translatable="false">angsi</string>
+    <string name="family_mi_daughter" translatable="false">tune</string>
+    <string name="family_mi_older_brother" translatable="false">taachi</string>
+    <string name="family_mi_younger_brother" translatable="false">chalitti</string>
+    <string name="family_mi_older_sister" translatable="false">teṭe</string>
+    <string name="family_mi_younger_sister" translatable="false">kolliti</string>
+    <string name="family_mi_grandmother" translatable="false">ama</string>
+    <string name="family_mi_grandfather" translatable="false">paapa</string>
+    <!-- Family Members Activity Strings End -->
+
 </resources>

@@ -16,9 +16,16 @@ public class Word {
      */
     private String mMiwokTranslation;
 
-    public Word(String pMiwokTranslation, String pDefaultTranslation) {
-        mMiwokTranslation = pMiwokTranslation;
+    /**
+     * Create a new Word object.
+     *
+     * @param pDefaultTranslation is the word in a language that the user is already familiar with
+     *                            (such as English)
+     * @param pMiwokTranslation   is the word in the Miwok language
+     */
+    public Word(String pDefaultTranslation, String pMiwokTranslation) {
         mDefaultTranslation = pDefaultTranslation;
+        mMiwokTranslation = pMiwokTranslation;
     }
 
     /**
