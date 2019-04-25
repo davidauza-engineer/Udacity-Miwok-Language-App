@@ -28,7 +28,7 @@
     <!-- Main Activity Strings End -->
 
     <!-- Numbers Activity Strings Start -->
-    <!-- English translation for numbers. [CHAR LIMIT=12] -->
+    <!-- English translation for numbers. [CHAR LIMIT=20] -->
     <string name="numbers_en_one">one</string>
     <string name="numbers_en_two">two</string>
     <string name="numbers_en_three">three</string>
@@ -53,7 +53,7 @@
     <!-- Numbers Activity Strings End -->
 
     <!-- Family Members Activity Strings Start -->
-    <!-- English translation for family members. [CHAR LIMIT =12] -->
+    <!-- English translation for family members. [CHAR LIMIT=20] -->
     <string name="family_en_father">father</string>
     <string name="family_en_mother">mother</string>
     <string name="family_en_son">son</string>
@@ -76,5 +76,51 @@
     <string name="family_mi_grandmother" translatable="false">ama</string>
     <string name="family_mi_grandfather" translatable="false">paapa</string>
     <!-- Family Members Activity Strings End -->
+
+    <!-- Colors Activity Strings Start -->
+    <!-- English translation for colors. [CHAR LIMIT=20] -->
+    <string name="colors_en_red">red</string>
+    <string name="colors_en_green">green</string>
+    <string name="colors_en_brown">brown</string>
+    <string name="colors_en_gray">gray</string>
+    <string name="colors_en_black">black</string>
+    <string name="colors_en_white">white</string>
+    <string name="colors_en_dusty_yellow">dusty yellow</string>
+    <string name="colors_en_mustard_yellow">mustard yellow</string>
+    <!-- Miwok translation for colors. [NOT TRANSLATABLE] -->
+    <string name="colors_mi_red" translatable="false">weṭeṭṭi</string>
+    <string name="colors_mi_green" translatable="false">chokokki</string>
+    <string name="colors_mi_brown" translatable="false">ṭakaakki</string>
+    <string name="colors_mi_gray" translatable="false">ṭopoppi</string>
+    <string name="colors_mi_black" translatable="false">kululli</string>
+    <string name="colors_mi_white" translatable="false">kelelli</string>
+    <string name="colors_mi_dusty_yellow" translatable="false">ṭopiisә</string>
+    <string name="colors_mi_mustard_yellow" translatable="false">chiwiiṭә</string>
+    <!-- Colors Activity Strings End -->
+
+    <!-- Phrases Activity Strings Start -->
+    <!-- English translation for phrases. [CHAR LIMIT=30] -->
+    <string name="phrases_en_where_are_you_going">Where are you going?</string>
+    <string name="phrases_en_what_is_your_name">What is your name?</string>
+    <string name="phrases_en_my_name_is">My name is...</string>
+    <string name="phrases_en_how_are_you_feeling">How are you feeling?</string>
+    <string name="phrases_en_I_am_feeling_good">I’m feeling good.</string>
+    <string name="phrases_en_are_you_coming">Are you coming?</string>
+    <string name="phrases_en_yes_I_am_coming">Yes, I’m coming.</string>
+    <string name="phrases_en_I_am_coming">I’m coming.</string>
+    <string name="phrases_en_let_is_go">Let’s go.</string>
+    <string name="phrases_en_come_here">Come here.</string>
+    <!-- Miwok translation for phrases. [NOT TRANSLATABLE] -->
+    <string name="phrases_mi_where_are_you_going" translatable="false">minto wuksus</string>
+    <string name="phrases_mi_what_is_your_name" translatable="false">tinnә oyaase\'nә</string>
+    <string name="phrases_mi_my_name_is" translatable="false">oyaaset...</string>
+    <string name="phrases_mi_how_are_you_feeling" translatable="false">michәksәs?</string>
+    <string name="phrases_mi_I_am_feeling_good" translatable="false">kuchi achit</string>
+    <string name="phrases_mi_are_you_coming" translatable="false">әәnәs\'aa?</string>
+    <string name="phrases_mi_yes_I_am_coming" translatable="false">hәә’ әәnәm</string>
+    <string name="phrases_mi_I_am_coming" translatable="false">әәnәm</string>
+    <string name="phrases_mi_let_is_go" translatable="false">yoowutis</string>
+    <string name="phrases_mi_come_here" translatable="false">әnni\'nem</string>
+    <!-- Phrases Activity Strings End -->
 
 </resources>
