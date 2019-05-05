@@ -16,21 +16,21 @@ public class ColorsActivity extends AppCompatActivity {
         // Create a list of words
         ArrayList<Word> words = new ArrayList<>();
         words.add(new Word(getString(R.string.colors_en_red),
-                getString(R.string.colors_mi_red)));
+                getString(R.string.colors_mi_red), R.drawable.color_red));
         words.add(new Word(getString(R.string.colors_en_green),
-                getString(R.string.colors_mi_green)));
+                getString(R.string.colors_mi_green), R.drawable.color_green));
         words.add(new Word(getString(R.string.colors_en_brown),
-                getString(R.string.colors_mi_brown)));
+                getString(R.string.colors_mi_brown), R.drawable.color_brown));
         words.add(new Word(getString(R.string.colors_en_gray),
-                getString(R.string.colors_mi_gray)));
+                getString(R.string.colors_mi_gray), R.drawable.color_gray));
         words.add(new Word(getString(R.string.colors_en_black),
-                getString(R.string.colors_mi_black)));
+                getString(R.string.colors_mi_black), R.drawable.color_black));
         words.add(new Word(getString(R.string.colors_en_white),
-                getString(R.string.colors_mi_white)));
+                getString(R.string.colors_mi_white), R.drawable.color_white));
         words.add(new Word(getString(R.string.colors_en_dusty_yellow),
-                getString(R.string.colors_mi_dusty_yellow)));
+                getString(R.string.colors_mi_dusty_yellow), R.drawable.color_dusty_yellow));
         words.add(new Word(getString(R.string.colors_en_mustard_yellow),
-                getString(R.string.colors_mi_mustard_yellow)));
+                getString(R.string.colors_mi_mustard_yellow), R.drawable.color_mustard_yellow));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The adapter
         // knows how to create list items for each item in the list.
