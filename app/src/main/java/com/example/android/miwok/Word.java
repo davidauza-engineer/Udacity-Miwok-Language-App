@@ -26,15 +26,24 @@ public class Word {
     private int mImageResourceId = NO_IMAGE_PROVIDED;
 
     /**
+     * Audio resource ID for the word
+     */
+    private int mAudioResourceId;
+
+    /**
      * Create a new Word object.
      *
      * @param pDefaultTranslation is the word in a language that the user is already familiar with
      *                            (such as English)
      * @param pMiwokTranslation   is the word in the Miwok language
+     * @param pAudioResourceId    is the resource ID for the audio file associated with this word.
      */
-    public Word(String pDefaultTranslation, String pMiwokTranslation) {
+    public Word(String pDefaultTranslation,
+                String pMiwokTranslation,
+                int pAudioResourceId) {
         mDefaultTranslation = pDefaultTranslation;
         mMiwokTranslation = pMiwokTranslation;
+        mAudioResourceId = pAudioResourceId;
     }
 
     /**
@@ -43,13 +52,17 @@ public class Word {
      * @param pDefaultTranslation is the word in a language that the user is already familiar with
      *                            (such as English)
      * @param pMiwokTranslation   is the word in the Miwok language
-     * @param pImageResourceId    is the drawable resource ID for the image associated with the
-     *                            word
+     * @param pImageResourceId    is the drawable resource ID for the image associated with the word
+     * @param pAudioResourceId    is the resource ID for the audio file associated with this word.
      */
-    public Word(String pDefaultTranslation, String pMiwokTranslation, int pImageResourceId) {
+    public Word(String pDefaultTranslation,
+                String pMiwokTranslation,
+                int pImageResourceId,
+                int pAudioResourceId) {
         mDefaultTranslation = pDefaultTranslation;
         mMiwokTranslation = pMiwokTranslation;
         mImageResourceId = pImageResourceId;
+        mAudioResourceId = pAudioResourceId;
     }
 
     /**
@@ -78,5 +91,12 @@ public class Word {
      */
     public boolean hasImage() {
         return mImageResourceId != NO_IMAGE_PROVIDED;
+    }
+
+    /**
+     * Return the audio resource ID of the word.
+     */
+    public int getAudioResourceId() {
+        return mAudioResourceId;
     }
 }
