@@ -27,7 +27,7 @@
     <string name="main_category_family">Family Members</string>
     <!-- Main Activity Strings End -->
 
-    <!-- Numbers Activity Strings Start -->
+    <!-- NumbersFragment Strings Start -->
     <!-- English translation for numbers. [CHAR LIMIT=20] -->
     <string name="numbers_en_one">one</string>
     <string name="numbers_en_two">two</string>
@@ -50,9 +50,9 @@
     <string name="numbers_mi_eight" translatable="false">kawinta</string>
     <string name="numbers_mi_nine" translatable="false">wo’e</string>
     <string name="numbers_mi_ten" translatable="false">na’aacha</string>
-    <!-- Numbers Activity Strings End -->
+    <!-- NumbersFragment Strings End -->
 
-    <!-- Family Members Activity Strings Start -->
+    <!-- FamilyFragment Strings Start -->
     <!-- English translation for family members. [CHAR LIMIT=20] -->
     <string name="family_en_father">father</string>
     <string name="family_en_mother">mother</string>
@@ -75,9 +75,9 @@
     <string name="family_mi_younger_sister" translatable="false">kolliti</string>
     <string name="family_mi_grandmother" translatable="false">ama</string>
     <string name="family_mi_grandfather" translatable="false">paapa</string>
-    <!-- Family Members Activity Strings End -->
+    <!-- FamilyFragment Strings End -->
 
-    <!-- Colors Activity Strings Start -->
+    <!-- ColorsFragment Strings Start -->
     <!-- English translation for colors. [CHAR LIMIT=20] -->
     <string name="colors_en_red">red</string>
     <string name="colors_en_green">green</string>
@@ -96,9 +96,9 @@
     <string name="colors_mi_white" translatable="false">kelelli</string>
     <string name="colors_mi_dusty_yellow" translatable="false">ṭopiisә</string>
     <string name="colors_mi_mustard_yellow" translatable="false">chiwiiṭә</string>
-    <!-- Colors Activity Strings End -->
+    <!-- ColorsFragment Strings End -->
 
-    <!-- Phrases Activity Strings Start -->
+    <!-- PhrasesFragment Strings Start -->
     <!-- English translation for phrases. [CHAR LIMIT=30] -->
     <string name="phrases_en_where_are_you_going">Where are you going?</string>
     <string name="phrases_en_what_is_your_name">What is your name?</string>
@@ -121,6 +121,6 @@
     <string name="phrases_mi_I_am_coming" translatable="false">әәnәm</string>
     <string name="phrases_mi_let_is_go" translatable="false">yoowutis</string>
     <string name="phrases_mi_come_here" translatable="false">әnni\'nem</string>
-    <!-- Phrases Activity Strings End -->
+    <!-- PhrasesFragment Strings End -->
 
 </resources>
