@@ -16,6 +16,7 @@
 package com.example.android.miwok;
 
 import android.os.Bundle;
+import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 
@@ -35,10 +36,20 @@ public class MainActivity extends AppCompatActivity {
         ViewPager viewPager = findViewById(R.id.viewpager);
 
         // Create an adapter that knows which fragment should be shown on each page
-        WordFragmentPagerAdapter adapter =
-                new WordFragmentPagerAdapter(getSupportFragmentManager());
+        CategoryAdapter adapter =
+                new CategoryAdapter(getSupportFragmentManager(), this);
 
         // Set the adapter onto the ViewPager
         viewPager.setAdapter(adapter);
+
+        // Find the TabLayout that shows the tabs
+        TabLayout tabLayout = findViewById(R.id.sliding_tabs);
+
+        // Connect the TabLayout with the ViewPager. This will
+        // 1. Update the TabLayout when the ViewPager is swiped
+        // 2. Update the ViewPager when a tab is selected
+        // 3. Set the TabLayout's tab names with the ViewPager's adapter's titles by calling
+        //    onPageTitle()
+        tabLayout.setupWithViewPager(viewPager);
     }
 }

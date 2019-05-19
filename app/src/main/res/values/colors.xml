@@ -35,4 +35,7 @@
     <!-- Background color for the phrases category -->
     <color name="category_phrases">#16AFCA</color>
 
+    <!-- Default text color for tabs in TabLayout -->
+    <color name="tab_default">#A8A19E</color>
+
 </resources>
